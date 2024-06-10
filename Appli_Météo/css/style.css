@@ -1,0 +1,52 @@
+body {
+    background-image: url(../img/wallpapertip_white-clouds-wallpaper_479919_ecran_droit.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;    
+}
+
+.box-container {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;    
+}
+
+#city {
+    background-color: rgb(152, 215, 242);
+}
+
+#temp {
+    background-color: rgb(118, 187, 228);
+}
+
+#wind {
+    background-color: rgb(81, 160, 219);
+}
+
+#humidity {
+background-color: rgb(30, 126, 226);
+}
+
+.form-control {
+    margin-bottom: 10px;
+    margin-top: 10px;   
+}
+
+button {
+    background-color: rgb(153, 212, 242);
+    border-color: white;
+}
